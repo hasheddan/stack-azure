@@ -7,7 +7,7 @@ metadata:
   name: redis.cache.azure.crossplane.io
 spec:
   additionalPrinterColumns:
-  - JSONPath: .status.state
+  - JSONPath: .status.bindingPhase
     name: STATUS
     type: string
   - JSONPath: .spec.classRef.name

@@ -10,9 +10,6 @@ spec:
   - JSONPath: .status.bindingPhase
     name: STATUS
     type: string
-  - JSONPath: .status.state
-    name: STATE
-    type: string
   - JSONPath: .status.clusterName
     name: CLUSTER-NAME
     type: string
