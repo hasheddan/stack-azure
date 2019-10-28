@@ -173,7 +173,6 @@ type AKSClusterStatus struct {
 // An AKSCluster is a managed resource that represents an Azure Kubernetes
 // Engine cluster.
 // +kubebuilder:printcolumn:name="STATUS",type="string",JSONPath=".status.bindingPhase"
-// +kubebuilder:printcolumn:name="STATE",type="string",JSONPath=".status.state"
 // +kubebuilder:printcolumn:name="CLUSTER-NAME",type="string",JSONPath=".status.clusterName"
 // +kubebuilder:printcolumn:name="ENDPOINT",type="string",JSONPath=".status.endpoint"
 // +kubebuilder:printcolumn:name="CLUSTER-CLASS",type="string",JSONPath=".spec.classRef.name"
